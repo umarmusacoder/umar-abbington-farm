@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abbington Farm</title>
+    <link rel="stylesheet" href="style.css/mystyle.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/Abbington Farm Logo.png"
+             alt="Farm logo" height="135" width="150">
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="page1.html">Activities</a> |
+            <a href="page2.html">Events</a> |
+            <a href="page3.html">Photo Gallery</a> |
+            <a href="page4.html">Shop</a> |
+            <a href="page5.html">News</a> |
+            <a href="page6.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+
+            <h2>Photo Gallery</h2>
+
+            <p>
+                Welcome to our photo gallery! Here you can find
+                a collection of images showcasing the beauty
+                and charm of Abbington Farm.
+
+                From our adorable animals to the scenic
+                landscapes, we hope these photos give you
+                a glimpse into the wonderful experiences
+                that await you at our farm.
+            </p>
+
+            <div class="col2">
+
+                <section>
+                    <img src="images/Horse.jpg"
+                         alt="Horse on field">
+                </section>
+
+                <section>
+                    <img src="images/lamb.jpg"
+                         alt="Lamb on field">
+                </section>
+
+            </div>
+
+            <!-- Button to print the page -->
+            <button type="button" onclick="window.print()">
+                Print this page
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p id="demo"></p>
+
+        <script>
+            const d = new Date();
+            document.getElementById("demo").innerHTML = d;
+        </script>
+
+        <p>All content &copy; Abbington Farm</p>
+
+        <a href="https://x.com/?lang=en">
+            <img src="images/x.png"
+                 height="32" width="32" alt="X">
+        </a>
+
+        <a href="https://www.facebook.com/">
+            <img src="images/fb.png"
+                 height="32" width="32" alt="Facebook">
+        </a>
+
+        <a href="https://www.instagram.com/">
+            <img src="images/insta.png"
+                 height="32" width="32" alt="Instagram">
+        </a>
+
+    </footer>
+
+</body>
+</html>
